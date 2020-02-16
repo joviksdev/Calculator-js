@@ -32,8 +32,7 @@ value.forEach(btn => {
     }
 
     if (total_num !== '' && btn.classList.contains('num')) {
-      //initial_num += btnValue;
-      initial_num = 
+      initial_num += btnValue;
       collected_value.textContent = initial_num;
       total_result.textContent = '';
     }
