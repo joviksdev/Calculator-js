@@ -72,7 +72,7 @@ calculate.addEventListener('click', e => {
     total_num = eval(initial_num);
     total_result.textContent = total_num;
   } catch (err) {
-    total_result.textContent = 'Styntac Error';
+    total_result.textContent = 'Syntax Error';
     total_result.classList.add('pop', 'show');
     setTimeout(() => total_result.classList.remove('pop', 'show'), 2000);
     setTimeout(() => collected_value.classList.remove('up'), 2000);
