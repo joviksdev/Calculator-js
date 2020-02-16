@@ -48,6 +48,7 @@ clear.addEventListener('click', e => {
   array.pop();
   initial_num = array.join('');
   collected_value.textContent = initial_num;
+  total_result.textContent = '';
 });
 
 // Clear All Value
