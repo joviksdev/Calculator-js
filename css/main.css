@@ -99,7 +99,7 @@ body {
 
 .pop {
   animation-name: pop;
-  animation-duration: 0.4s;
+  animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
 }
 
@@ -109,7 +109,7 @@ body {
   }
 
   50% {
-    transform: scale(1.4);
+    transform: scale(1.2);
   }
   100% {
     transform: scale(1);
